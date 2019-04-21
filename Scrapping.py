@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from firebase import firebase
 import random
-firebase = firebase.FirebaseApplication('https://pesdatabase-d2d99.firebaseio.com/')
+firebase = firebase.FirebaseApplication('ADD DATABASE LINK HERE')
 
 def player_scrap(link):
     url = link #Getting url from the link passed as paramater
